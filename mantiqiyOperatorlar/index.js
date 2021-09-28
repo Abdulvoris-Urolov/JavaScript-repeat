@@ -22,15 +22,30 @@
 // NaN
 // falsy bo`lmagan boshqa qiymatlar truthy qiymatalr bo`ladi.
 
-let defaultColor = 'qora';
-let userColor = undefined;
-let currentColor = userColor || defaultColor;
+// let defaultColor = 'qora';
+// let userColor = undefined;
+// let currentColor = userColor || defaultColor;
 
-//console.log(currentColor);
+// //console.log(currentColor);
 
-let person = {
-    name: 'Abdulvoris',
-    age: 20
-}
+// let person = {
+//     name: 'Abdulvoris',
+//     age: 20,
+//     job: 'muhandis'
+// }
 
-console.log(person.job || 'ishsiz');
+// console.log(person.job || 'ishsiz');
+
+// let x = 2 + 3 * 4;
+// console.log(x);
+
+// let isOpen = false;
+// console.log(!!isOpen);
+
+let a;
+let b = null;
+let c = undefined;
+let d = 4;
+let e = 'five';
+let f = a || b || c || d || e;
+console.log(f);
